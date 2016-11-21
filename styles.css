@@ -4,8 +4,7 @@ body: {
 	justify-content: center;
 
 
-
-	}
+}
 
 
 
@@ -57,16 +56,22 @@ li {
 	margin-top: 25px;
 	margin-left: 25px;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 }
+
 
 .favSongName {
 	display: flex;
 	flex-direction: row;
+	align-content: space-around;
+	margin-left: 100px;
 
-	 
+	
 
+}
 
+#fav1 {
+	margin-top: 50px;
 }
 
 
