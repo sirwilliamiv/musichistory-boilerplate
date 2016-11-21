@@ -1,22 +1,48 @@
+body: {
+
+	display:flex;
+	justify-content: center;
+
+
+
+	}
+
+
+
+
 nav {
 	
-	display: flex;
+	
 	width:80%;
 	height: 5%;
-	display: inline-block;
+
 	border: solid 2px black;
 	background-color: #ffb4b0;
 	list-style:none;
 
 
 }
+li {
+		display: inline-block;
+}
+
+.main-container {
+	display: flex;
+
+
+
+
+}
 .sidebar {
 	border: solid 2px black;
-	max-width: 20%;
+	
+	flex-grow:1;
+
 
 
 }
 .favorites {
 	border: solid 2px black;
+	flex-grow: 4;
 
 }

@@ -18,78 +18,82 @@
 
 	<!-- sidebar length artist album  -->
 		<!-- >= 5 options for album select -->
-	<div class="sidebar">
+		<div class="main-container">
+
+				<div class="sidebar">
+
+			<!-- Arist Select -->
+					<p>Song Length</p>
+						<input type="range" name="songLength" id="songLength">
+					<p>Artist</p>
+						<select name="select" id="artistSelect">
+							<option value="op1">David Bowie</option>
+							<option value="op2">John Lennon</option>
+							<option value="op3">Frederic Chopin</option>
+							<option value="op4">Muse</option>
+							<option value="op5">Chance the Rapper</option>
+							<option value="op6">Erik Satie</option>
+						</select>
+				<!-- Album Select -->
+						
+					<p>Album</p>
+						<select name="select" id="artistSelect">
+							<option value="op1">Blackstar</option>
+							<option value="op2">Imagine</option>
+							<option value="op3">The Complete Mazurkas</option>
+							<option value="op4">Absolution</option>
+							<option value="op5">Coloring Book</option>
+							<option value="op6">Satie: Works for Piano</option>
+						</select>
+
+			<!-- Genre Checkbox -->
+					<div class="sidebarCheckbox">
+						<p>Genre</p>
+							<label><input type="checkbox" name="ch1">Rock</label>
+							<label><input type="checkbox" name="ch2">Rap</label>
+							<label><input type="checkbox" name="ch3">Classical</label>
+							<label><input type="checkbox" name="ch4">Folk</label>
+							<label><input type="checkbox" name="ch5">Jazz</label>
+							<label><input type="checkbox" name="ch6">Latin Hip-Hop
+							</label>
+						
+					</div>
+				</div>
+
+			<!-- songnamecontainer -->
+
+					<div class="favorites">
+						<div class="favSongName" id="fav1">
+							<h1>Lazarus</h1>
+								<p class="favArtistname">David Bowie</p>
+								<p class="favAlbumname">Blackstar</p>
+								<p class="favArtistgenre">Jazz</p>
+						</div>
+						<div class="favSongName" id="fav2">
+							<h1>Imagine</h1>
+								<p class="favArtistname">John Lennon</p>
+								<p class="favAlbumname">Imagine</p>
+								<p class="favArtistgenre">Rock</p>
+						</div>
+						<div class="favSongName" id="fav3">
+							<h1>Mazurkas, Op.6: No 1 in F-sharp Minor</h1>
+								<p class="favArtistname">Andrew Rangell</p>
+								<p class="favAlbumname">The Complete Mazurkas</p>
+								<p class="favArtistgenre">Classical</p>
+						</div>
+						<div class="favSongName" id="fav4">
+							<h1>Hysteria</h1>
+								<p class="favArtistname">Muse</p>
+								<p class="favAlbumname">Absolution</p>
+								<p class="favArtistgenre">Rock
+								</p>
+						</div>
+					</div>
+				</div>	
+		
 
 
-			<p>Song Length</p>
-				<input type="range" name="songLength" id="songLength">
-			<p>Artist</p>
-				<select name="select" id="artistSelect">
-					<option value="op1">David Bowie</option>
-					<option value="op2">John Lennon</option>
-					<option value="op3">Frederic Chopin</option>
-					<option value="op4">Muse</option>
-					<option value="op5">Chance the Rapper</option>
-					<option value="op6">Erik Satie</option>
-				</select>
-				
-			<p>Album</p>
-				<select name="select" id="artistSelect">
-					<option value="op1">Blackstar</option>
-					<option value="op2">Imagine</option>
-					<option value="op3">The Complete Mazurkas</option>
-					<option value="op4">Absolution</option>
-					<option value="op5">Coloring Book</option>
-					<option value="op6">Satie: Works for Piano</option>
-				</select>
 
-
-			<div class="sidebarCheckbox">
-				<p>Genre</p>
-					<label><input type="checkbox" name="ch1">Rock</label>
-					<label><input type="checkbox" name="ch2">Rap</label>
-					<label><input type="checkbox" name="ch3">Classical</label>
-					<label><input type="checkbox" name="ch4">Folk</label>
-					<label><input type="checkbox" name="ch5">Jazz</label>
-					<label><input type="checkbox" name="ch6">Latin Hip-Hop
-					</label>
-				
-		</div>
-
-	<!-- songnamecontainer -->
-
-	<div class="favorites">
-		<div class="favSongName" id="fav1">
-			<h1>Lazarus</h1>
-				<p class="favArtistname">David Bowie</p>
-				<p class="favAlbumname">Blackstar</p>
-				<p class="favArtistgenre">Jazz</p>
-		</div>
-		<div class="favSongName" id="fav2">
-			<h1>Imagine</h1>
-				<p class="favArtistname">John Lennon</p>
-				<p class="favAlbumname">Imagine</p>
-				<p class="favArtistgenre">Rock</p>
-		</div>
-		<div class="favSongName" id="fav3">
-			<h1>Mazurkas, Op.6: No 1 in F-sharp Minor</h1>
-				<p class="favArtistname">Andrew Rangell</p>
-				<p class="favAlbumname">The Complete Mazurkas</p>
-				<p class="favArtistgenre">Classical</p>
-		</div>
-		<div class="favSongName" id="fav4">
-			<h1>Hysteria</h1>
-				<p class="favArtistname">Muse</p>
-				<p class="favAlbumname">Absolution</p>
-				<p class="favArtistgenre">Rock
-				</p>
-		</div>
-	</div>
-		<!-- Song Name * 5
-			Artist Name Album name genre -->
-
-
-	<!--  -->
 
 
 
