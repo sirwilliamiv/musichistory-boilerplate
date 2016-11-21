@@ -23,26 +23,31 @@ nav {
 
 }
 li {
+
 		display: inline-block;
 }
 
+
 .main-container {
+
 	display: flex;
 
 
-
-
 }
+
+
 .sidebar {
 	border: solid 2px black;
-	
-	flex-grow:1;
-
-
+	background-color: #4DD7FA;
+	max-width: 200px;
 
 }
+
+
 .favorites {
+
 	border: solid 2px black;
-	flex-grow: 4;
+	background-color: #FEFAC0;
+	flex-grow: 7;
 
 }
